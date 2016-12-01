@@ -1,0 +1,14 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.1'
+
+    defaultConfig {
+        minSdkVersion 9
+    }
+}
+
+dependencies {
+    compile 'org.joda:joda-convert:1.8.1'
+}
